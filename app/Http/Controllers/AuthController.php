@@ -45,7 +45,7 @@ class AuthController extends Controller
         $usuario->save();
 
         // respuesta
-        return response()->json(["mensaje" => "usuario Registrado"], 201);
+        return response()->json(["mensaje" => "usuario Registrado."], 201);
 
     }
     public function funProfile (Request $request){
